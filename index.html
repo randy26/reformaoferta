@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ReformaOferta | Ofertas para tu hogar</title>
+  <meta name="description" content="Encuentra ofertas de herramientas, baño, cocina, iluminación y productos para reformas en España.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#">Reforma<span>Oferta</span></a>
+    <nav>
+      <a href="#categorias">Categorías</a>
+      <a href="#ofertas">Ofertas</a>
+      <a href="#como">Cómo funciona</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">REFORMAS · HOGAR · HERRAMIENTAS</p>
+      <h1>Encuentra buenas ofertas para tu reforma.</h1>
+      <p class="lead">Comparamos productos y ofertas de tiendas de España para ayudarte a encontrar lo que necesitas.</p>
+      <a class="btn primary" href="#ofertas">Ver ofertas</a>
+    </div>
+    <div class="hero-card">
+      <div class="hero-icon">🏠</div>
+      <strong>Ofertas seleccionadas</strong>
+      <span>Actualiza los productos y tus enlaces de afiliado fácilmente.</span>
+    </div>
+  </div>
+</section>
+
+<section id="categorias" class="section">
+  <div class="container">
+    <h2>Categorías</h2>
+    <div class="categories">
+      <button data-category="Todas">Todas</button>
+      <button data-category="Herramientas">🔧 Herramientas</button>
+      <button data-category="Baño">🚿 Baño</button>
+      <button data-category="Cocina">🍳 Cocina</button>
+      <button data-category="Iluminación">💡 Iluminación</button>
+      <button data-category="Pintura">🎨 Pintura</button>
+      <button data-category="Climatización">❄️ Climatización</button>
+    </div>
+  </div>
+</section>
+
+<section id="ofertas" class="section alt">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>Ofertas destacadas</h2>
+        <p>Ejemplos de productos. Sustituye los enlaces por tus enlaces de afiliado reales.</p>
+      </div>
+      <input id="search" type="search" placeholder="Buscar productos...">
+    </div>
+    <div id="products" class="products"></div>
+  </div>
+</section>
+
+<section id="como" class="section">
+  <div class="container info">
+    <h2>¿Cómo funciona?</h2>
+    <div class="steps">
+      <article><b>1</b><h3>Encuentra</h3><p>El usuario busca un producto u oferta.</p></article>
+      <article><b>2</b><h3>Compara</h3><p>Presentamos productos de distintas tiendas.</p></article>
+      <article><b>3</b><h3>Compra</h3><p>El usuario visita la tienda desde tu enlace de afiliado.</p></article>
+    </div>
+    <p class="affiliate-note">Aviso: algunos enlaces de este sitio pueden ser enlaces de afiliado. Si realizas una compra a través de ellos, podemos recibir una comisión, sin coste adicional para ti.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <strong>ReformaOferta</strong>
+    <span>© <span id="year"></span> · Sitio de afiliados</span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
